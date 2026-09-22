@@ -67,7 +67,7 @@ export const Search: FC = () => {
   return (
     <div>
       <input value={query} onChange={e => setQuery(e.target.value)} placeholder="Search languages…" />
-      {visibleResults.length && (
+      {visibleResults.length > 0 && (
         <ul>
           {visibleResults.map(result => <li key={result}>{result}</li>)}
         </ul>
