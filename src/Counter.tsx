@@ -1,5 +1,5 @@
 /**
- * Create a React component named `Counter` with two optional props of type
+ * Export a React component named `Counter` with two optional props of type
  * `number`: `initialCount` and `increment`.
  * 
  * The component should display the current count and a button.
